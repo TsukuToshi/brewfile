@@ -19,22 +19,24 @@ brew tree
 brew vim
 brew xz
 
-tap caskroom/cask
+tap homebrew/cask
 cask alfred
-cask android-sdk
 cask atom
-cask firefox
 cask franz
-cask freemind
 cask google-chrome
-cask karabiner-elements
 cask mi
-cask sketch
 cask skitch
-cask slack
 
 tap rcmdnk/file
 brew brew-file
+
+# Other Cask applications
+cask android-sdk
+cask firefox
+cask freemind
+cask karabiner-elements
+cask sketch
+cask slack
 
 # App Store applications
 appstore 443987910 1Password (6.8.8)
